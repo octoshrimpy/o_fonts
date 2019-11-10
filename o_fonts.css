@@ -17,3 +17,7 @@
 .o_fonts.comic {
     font-family: "o_comic" !important;
 }
+
+.o_fonts:hover {
+  font-family: sans-serif !important;
+}
