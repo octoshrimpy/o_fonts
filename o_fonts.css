@@ -4,7 +4,16 @@
     font-weight: 100;
     font-style: normal;
 }
+@font-face {
+    font-family: 'o_comic';
+    src: url('https://raw.githubusercontent.com/octoshrimpy/o_fonts/master/fonts/comic.ttf');
+    font-weight: 100;
+    font-style: normal;
+}
 
 .o_fonts.crayon {
     font-family: "o_crayons" !important;
+}
+.o_fonts.comic {
+    font-family: "o_comic" !important;
 }
