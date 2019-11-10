@@ -5,6 +5,6 @@
     font-style: normal;
 }
 
-.o_fonts .crayon {
+.o_fonts.crayon {
     font-family: "o_crayons" !important;
 }
