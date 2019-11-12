@@ -27,8 +27,11 @@ var getClosest = function (elem, selector) {
 //////////////////////////////////////////
 
 var users = {
-  "351479285845852162": "comic",
-  "337479296157351947": "crayon"
+  "270690800478715904": "comic",
+	"330000528069099521": "comic",
+	"447446046830755841": "comic",
+  "480913237664071680": "crayon",
+	"337479296157351947": "crayon"
 }
 
 window.setInterval(
@@ -36,7 +39,7 @@ window.setInterval(
 
     // users.forEach(function(id, font) {
     for(var [user, font] of Object.entries(users)){
-      var selector = `[user_by_bdfdb='${CSS.escape(user)}']:not(.found)`;
+      var selector = `[user_by_bdfdb='${user}']:not(.found)`;
       var elements = document.querySelectorAll(selector);
       // console.log(elements)
       elements.forEach(function (item) {
